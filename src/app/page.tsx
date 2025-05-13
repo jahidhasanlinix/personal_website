@@ -8,7 +8,7 @@ export default function Home() {
           <div className="profile-image">
             <Image
               src="/pictures/Headshot.png"
-              alt="Jahid Hasan's headshot"
+              alt="Jahid Hasan&apos;s headshot"
               width={180}
               height={180}
               priority
@@ -62,11 +62,11 @@ export default function Home() {
       <section id="about">
         <h2>👋 About Me</h2>
         <p>
-          Hello, I am Jahid, a PhD student in Computer Science at Iowa State University, with dual Master's degrees in CS and Entrepreneurship. My work combines technical innovation with business acumen, focusing on AI and startup development.
+          Hello, I am Jahid, a PhD student in Computer Science at Iowa State University, with dual Master&apos;s degrees in CS and Entrepreneurship. My work combines technical innovation with business acumen, focusing on AI and startup development.
         </p>
         <p>
-          I'm building the future of AI collaboration through two ventures: <a href="https://tometoai.com/" target="_blank" rel="noopener noreferrer">Tometo AI</a> (ProductHunt #2) and <a href="https://www.linkedin.com/company/thebinder/" target="_blank" rel="noopener noreferrer">TheBinder AI</a>, where I'm developing <a href="https://github.com/TheBinder-AI/SwarmSync-SDK" target="_blank" rel="noopener noreferrer">SwarmSync SDK</a> - an open-source platform for AI agent swarms that work like elite human teams. I also help startups grow as a Senior Venture Scout at <a href="https://www.lvlup.vc/" target="_blank" rel="noopener noreferrer">LvlUp Ventures</a>.
-          Previously founded TucanaStarSoft, LLC., a video game development company. When not coding or building, I'm at the gym, in the kitchen, or exploring new places.
+          I&apos;m building the future of AI collaboration through two ventures: <a href="https://tometoai.com/" target="_blank" rel="noopener noreferrer">Tometo AI</a> (ProductHunt #2) and <a href="https://www.linkedin.com/company/thebinder/" target="_blank" rel="noopener noreferrer">TheBinder AI</a>, where I&apos;m developing <a href="https://github.com/TheBinder-AI/SwarmSync-SDK" target="_blank" rel="noopener noreferrer">SwarmSync SDK</a> - an open-source platform for AI agent swarms that work like elite human teams. I also help startups grow as a Senior Venture Scout at <a href="https://www.lvlup.vc/" target="_blank" rel="noopener noreferrer">LvlUp Ventures</a>.
+          Previously founded TucanaStarSoft, LLC., a video game development company. When not coding or building, I&apos;m at the gym, in the kitchen, or exploring new places.
         </p>
 
         <div style={{ marginTop: "15px", marginBottom: "20px" }}>
@@ -80,7 +80,7 @@ export default function Home() {
           }}>
             <Image
               src="https://ghchart.rshah.org/jahidhasanlinix"
-              alt="Jahid Hasan's GitHub Contributions"
+              alt="Jahid Hasan&apos;s GitHub Contributions"
               width={800}
               height={150}
               style={{ width: "100%", height: "auto" }}
