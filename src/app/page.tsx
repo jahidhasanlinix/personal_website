@@ -142,23 +142,24 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="experience-item">
-            <div className="experience-dot"></div>
-            <div className="experience-content">
-              <h3 className="experience-title">🎮 Founder</h3>
-              <a href="https://www.youtube.com/watch?v=I6RZcBQG4fA&ab_channel=1UniverseGames" target="_blank" rel="noopener noreferrer" className="experience-company">TucanaStarSoft, LLC</a>
-              <p className="experience-date">2022-2023</p>
-              <p className="experience-description">Video game development company (DISSOLVED).</p>
-            </div>
-          </div>
 
           <div className="experience-item">
             <div className="experience-dot"></div>
             <div className="experience-content">
               <h3 className="experience-title">🎲 Project Manager</h3>
               <a href="https://store.steampowered.com/app/2504810/Arcane_Arena/" target="_blank" rel="noopener noreferrer" className="experience-company">BLÜ Games</a>
-              <p className="experience-date">May 2023 - Nov 2023</p>
+              <p className="experience-date">May 2023 - Nov 2024</p>
               <p className="experience-description">Building Arcane Arena Video Game.</p>
+            </div>
+          </div>
+
+          <div className="experience-item">
+            <div className="experience-dot"></div>
+            <div className="experience-content">
+              <h3 className="experience-title">🎮 Founder</h3>
+              <a href="https://www.youtube.com/watch?v=I6RZcBQG4fA&ab_channel=1UniverseGames" target="_blank" rel="noopener noreferrer" className="experience-company">TucanaStarSoft, LLC</a>
+              <p className="experience-date">May 2022 - May 2023</p>
+              <p className="experience-description">Video game development company (DISSOLVED).</p>
             </div>
           </div>
 
