@@ -65,7 +65,7 @@ export default function Home() {
           Hello, I am Jahid, a PhD student in Computer Science at Iowa State University, with dual Master&apos;s degrees in CS and Entrepreneurship. I blended my technical and entrepreneurial knowledge with a focus on AI and startup development.
         </p>
         <p>
-          I&apos;m currently working with: <a href="https://tometoai.com/" target="_blank" rel="noopener noreferrer">Tometo, Inc.</a> (ProductHunt #2) FAANG-tier AI Engineering Manager and another open-source community project <a href="https://www.linkedin.com/company/thebinder/" target="_blank" rel="noopener noreferrer">TheBinder AI</a>, where I&apos;m developing <a href="https://github.com/TheBinder-AI/SwarmSync-SDK" target="_blank" rel="noopener noreferrer">SwarmSync SDK</a> - an open-source platform for AI agent swarms that work like real human teams. I also help startups grow as a Senior Venture Scout at <a href="https://www.lvlup.vc/" target="_blank" rel="noopener noreferrer">LvlUp Ventures</a>.
+          I&apos;m currently working with: <a href="https://tometoai.com/" target="_blank" rel="noopener noreferrer">Tometo, Inc.</a> (ProductHunt #2) FAANG-tier AI Engineering Manager and another open-source community project <a href="https://github.com/TheBinder-AI" target="_blank" rel="noopener noreferrer">TheBinder AI</a>, where I&apos;m developing <a href="https://github.com/TheBinder-AI/SwarmSync-SDK" target="_blank" rel="noopener noreferrer">SwarmSync SDK</a> - an open-source platform for AI agent swarms that work like real human teams. I also help startups grow as a Senior Venture Scout at <a href="https://www.lvlup.vc/" target="_blank" rel="noopener noreferrer">LvlUp Ventures</a>.
           Previously, I founded TucanaStarSoft, LLC., a video game development company. When not coding or building, I&apos;m at the gym, in the kitchen, or exploring new places.
         </p>
 
@@ -90,103 +90,341 @@ export default function Home() {
       </section>
 
       <section id="experience">
-        <h2>💼 Experience (Research/Work)</h2>
-        <div className="experience-timeline">
-          <div className="experience-item">
-            <div className="experience-dot"></div>
-            <div className="experience-content">
-              <h3 className="experience-title">🤖 Founding CEO & Engineering</h3>
-              <a href="https://www.linkedin.com/company/thebinder/" target="_blank" rel="noopener noreferrer" className="experience-company">TheBinder AI (Stealth AI startup)</a>
-              <p className="experience-date">2025</p>
-              <p className="experience-description">Building a platform for AI Agents to collaborate and build together, checkout <a href="https://github.com/TheBinder-AI/SwarmSync-SDK" target="_blank" rel="noopener noreferrer">SwarmSync-SDK</a>.</p>
+        <h2>💼 Experience</h2>
+        <div className="experience-container">
+          <div className="experience-timeline">
+            
+            <div className="experience-item current">
+              <div className="experience-marker">
+                <div className="experience-dot">
+                  <img 
+                    src="/favicon.jpeg" 
+                    alt="TheBinder AI Logo" 
+                    className="experience-icon-image"
+                  />
+                </div>
+              </div>
+              <div className="experience-card">
+                <div className="experience-header">
+                  <div className="experience-title-section">
+                    <h3 className="experience-title">Founding CEO & Engineering</h3>
+                    <span className="experience-status current">Current</span>
+                  </div>
+                  <div className="experience-company-section">
+                    <a href="https://github.com/TheBinder-AI" target="_blank" rel="noopener noreferrer" className="experience-company">
+                      TheBinder AI
+                    </a>
+                    <span className="experience-type">Stealth AI Startup</span>
+                  </div>
+                  <div className="experience-date">2025</div>
+                </div>
+                <div className="experience-body">
+                  <p className="experience-description">
+                    Building an open-source community driven platform to develop <a href="https://github.com/TheBinder-AI/SwarmSync-SDK" target="_blank" rel="noopener noreferrer" className="inline-link">SwarmSync-SDK</a> for seamless multi-agentic collaboration.
+                  </p>
+                  <div className="experience-skills">
+                    <span className="skill-tag primary">AI Leadership</span>
+                    <span className="skill-tag primary">Multi-Agent Systems</span>
+                    <span className="skill-tag">Product Strategy</span>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div className="experience-item">
-            <div className="experience-dot"></div>
-            <div className="experience-content">
-              <h3 className="experience-title">🚀 Engineering & Co-Founder</h3>
-              <a href="https://tometoai.com/" target="_blank" rel="noopener noreferrer" className="experience-company">Tometo AI</a>
-              <p className="experience-date">Jan 2025 - Present</p>
-              <p className="experience-description">Building FAANG-tier AI Engineering Manager.</p>
+            <div className="experience-item current">
+              <div className="experience-marker">
+                <div className="experience-dot">
+                  <img 
+                    src="/tometo.png" 
+                    alt="Tometo AI Logo" 
+                    className="experience-icon-image"
+                  />
+                </div>
+              </div>
+              <div className="experience-card">
+                <div className="experience-header">
+                  <div className="experience-title-section">
+                    <h3 className="experience-title">Co-Founder & Engineering</h3>
+                    <span className="experience-status current">Current</span>
+                  </div>
+                  <div className="experience-company-section">
+                    <a href="https://tometoai.com/" target="_blank" rel="noopener noreferrer" className="experience-company">
+                      Tometo, Inc.
+                    </a>
+                    <span className="experience-type">AI Startup</span>
+                  </div>
+                  <div className="experience-date">Jan 2025 - Present</div>
+                </div>
+                <div className="experience-body">
+                  <p className="experience-description">
+                    Building FAANG-tier AI Engineering Manager to help startups founders and teams.
+                  </p>
+                  <div className="experience-skills">
+                    <span className="skill-tag primary">AI Research & Engineering</span>
+                    <span className="skill-tag primary">Product Strategy</span>
+                    <span className="skill-tag">Growth</span>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div className="experience-item">
-            <div className="experience-dot"></div>
-            <div className="experience-content">
-              <h3 className="experience-title">🔬 Graduate Research Assistant</h3>
-              <a href="https://www.bilab2012.com/home" target="_blank" rel="noopener noreferrer" className="experience-company">BiLab, ISU</a>
-              <p className="experience-date">Nov 2024 - Present</p>
-              <p className="experience-description">Researching on deep learning for biomedical applications.</p>
+            <div className="experience-item current">
+              <div className="experience-marker">
+                <div className="experience-dot">
+                  <img 
+                    src="/isu.png" 
+                    alt="Iowa State University Logo" 
+                    className="experience-icon-image"
+                  />
+                </div>
+              </div>
+              <div className="experience-card">
+                <div className="experience-header">
+                  <div className="experience-title-section">
+                    <h3 className="experience-title">Graduate Research Assistant</h3>
+                    <span className="experience-status current">Current</span>
+                  </div>
+                  <div className="experience-company-section">
+                    <a href="https://www.bilab2012.com/home" target="_blank" rel="noopener noreferrer" className="experience-company">
+                      BiLab, Iowa State University
+                    </a>
+                  </div>
+                  <div className="experience-date">Nov 2024 - Present</div>
+                </div>
+                <div className="experience-body">
+                  <p className="experience-description">
+                    Building deep learning frameworks for biomedical research (Ultrasound, Photoacoustic tomography, etc.).
+                  </p>
+                  <div className="experience-skills">
+                    <span className="skill-tag primary">Deep Learning</span>
+                    <span className="skill-tag primary">Biomedical Research</span>
+                    <span className="skill-tag">PhD</span>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div className="experience-item">
-            <div className="experience-dot"></div>
-            <div className="experience-content">
-              <h3 className="experience-title">💼 Senior Venture Scout</h3>
-              <a href="https://www.lvlup.vc/" target="_blank" rel="noopener noreferrer" className="experience-company">LvlUp Ventures</a>
-              <p className="experience-date">Nov 2024 - Present</p>
-              <p className="experience-description">Investment scouting and due diligence.</p>
+            <div className="experience-item current">
+              <div className="experience-marker">
+                <div className="experience-dot">
+                  <img 
+                    src="/lvlup.jpg" 
+                    alt="LvlUp Ventures Logo" 
+                    className="experience-icon-image"
+                  />
+                </div>
+              </div>
+              <div className="experience-card">
+                <div className="experience-header">
+                  <div className="experience-title-section">
+                    <h3 className="experience-title">Senior Venture Scout</h3>
+                    <span className="experience-status current">Current</span>
+                  </div>
+                  <div className="experience-company-section">
+                    <a href="https://www.lvlup.vc/" target="_blank" rel="noopener noreferrer" className="experience-company">
+                      LvlUp Ventures
+                    </a>
+                  </div>
+                  <div className="experience-date">Nov 2024 - Present</div>
+                </div>
+                <div className="experience-body">
+                  <p className="experience-description">
+                    Conducting investment scouting and due diligence for early-stage startups.
+                  </p>
+                  <div className="experience-skills">
+                    <span className="skill-tag primary">Venture Capital</span>
+                    <span className="skill-tag">Investment Analysis</span>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div className="experience-item">
-            <div className="experience-dot"></div>
-            <div className="experience-content">
-              <h3 className="experience-title">🎯 Campus Strategist</h3>
-              <a href="https://www.perplexity.ai/" target="_blank" rel="noopener noreferrer" className="experience-company">Perplexity AI</a>
-              <p className="experience-date">Sep-Dec 2024</p>
-              <p className="experience-description">Led Perplexity AI's campus product growth marketing campaign.</p>
+            <div className="experience-item">
+              <div className="experience-marker">
+                <div className="experience-dot">
+                  <img 
+                    src="/perplexity.png" 
+                    alt="Perplexity AI Logo" 
+                    className="experience-icon-image"
+                  />
+                </div>
+              </div>
+              <div className="experience-card">
+                <div className="experience-header">
+                  <div className="experience-title-section">
+                    <h3 className="experience-title">Campus Strategist</h3>
+                  </div>
+                  <div className="experience-company-section">
+                    <a href="https://www.perplexity.ai/" target="_blank" rel="noopener noreferrer" className="experience-company">
+                      Perplexity AI
+                    </a>
+                  </div>
+                  <div className="experience-date">Sep - Dec 2024</div>
+                </div>
+                <div className="experience-body">
+                  <p className="experience-description">
+                    Led Perplexity AI's campus product growth marketing campaign, driving user adoption and engagement.
+                  </p>
+                  <div className="experience-skills">
+                    <span className="skill-tag">Growth Marketing</span>
+                    <span className="skill-tag">Product Strategy</span>
+                    <span className="skill-tag">Campus Outreach</span>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
 
-
-          <div className="experience-item">
-            <div className="experience-dot"></div>
-            <div className="experience-content">
-              <h3 className="experience-title">🎲 Project Manager</h3>
-              <a href="https://store.steampowered.com/app/2504810/Arcane_Arena/" target="_blank" rel="noopener noreferrer" className="experience-company">BLÜ Games</a>
-              <p className="experience-date">May 2023 - Nov 2024</p>
-              <p className="experience-description">Building Arcane Arena Video Game.</p>
+            <div className="experience-item">
+              <div className="experience-marker">
+                <div className="experience-dot">
+                  <img 
+                    src="/steam.png" 
+                    alt="Steam Logo" 
+                    className="experience-icon-image"
+                  />
+                </div>
+              </div>
+              <div className="experience-card">
+                <div className="experience-header">
+                  <div className="experience-title-section">
+                    <h3 className="experience-title">Project Manager</h3>
+                  </div>
+                  <div className="experience-company-section">
+                    <a href="https://store.steampowered.com/app/2504810/Arcane_Arena/" target="_blank" rel="noopener noreferrer" className="experience-company">
+                      BLÜ Games
+                    </a>
+                    <span className="experience-type">Indie Game Studio</span>
+                  </div>
+                  <div className="experience-date">May 2023 - Nov 2024</div>
+                </div>
+                <div className="experience-body">
+                  <p className="experience-description">
+                    Managed development of Arcane Arena, a competitive multiplayer video game.
+                  </p>
+                  <div className="experience-skills">
+                    <span className="skill-tag">Game Development</span>
+                    <span className="skill-tag">Project Management</span>
+                    <span className="skill-tag">Steam</span>
+                    <span className="skill-tag">Unreal Engine 5</span>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div className="experience-item">
-            <div className="experience-dot"></div>
-            <div className="experience-content">
-              <h3 className="experience-title">🎮 Founder</h3>
-              <a href="https://www.youtube.com/watch?v=I6RZcBQG4fA&ab_channel=1UniverseGames" target="_blank" rel="noopener noreferrer" className="experience-company">TucanaStarSoft, LLC</a>
-              <p className="experience-date">May 2022 - May 2023</p>
-              <p className="experience-description">Video game development company (DISSOLVED).</p>
+            <div className="experience-item">
+              <div className="experience-marker">
+                <div className="experience-dot">
+                  <img 
+                    src="/tucana.png" 
+                    alt="TucanaStarSoft Logo" 
+                    className="experience-icon-image"
+                  />
+                </div>
+              </div>
+              <div className="experience-card">
+                <div className="experience-header">
+                  <div className="experience-title-section">
+                    <h3 className="experience-title">Founder</h3>
+                  </div>
+                  <div className="experience-company-section">
+                    <a href="https://www.youtube.com/watch?v=I6RZcBQG4fA&ab_channel=1UniverseGames" target="_blank" rel="noopener noreferrer" className="experience-company">
+                      TucanaStarSoft, LLC
+                    </a>
+                    <span className="experience-type">DISSOLVED</span>
+                  </div>
+                  <div className="experience-date">May 2022 - May 2023</div>
+                </div>
+                <div className="experience-body">
+                  <p className="experience-description">
+                    Founded and operated a video game development company, gaining valuable entrepreneurial experience.
+                  </p>
+                  <div className="experience-skills">
+                    <span className="skill-tag">Entrepreneurship</span>
+                    <span className="skill-tag">Game Development</span>
+                    <span className="skill-tag">Business Operations</span>
+                    <span className="skill-tag">Unreal Engine 5</span>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div className="experience-item">
-            <div className="experience-dot"></div>
-            <div className="experience-content">
-              <h3 className="experience-title">💻 Technical Support Engineer</h3>
-              <a href="https://www.microsoft.com/en-us/" target="_blank" rel="noopener noreferrer" className="experience-company">Shanghai Microsoft</a>
-              <p className="experience-date">Oct 2019 - Jan 2020</p>
-              <p className="experience-description">Technical support for Microsoft products.</p>
+            <div className="experience-item">
+              <div className="experience-marker">
+                <div className="experience-dot">
+                  <img 
+                    src="/microsoft.png" 
+                    alt="Microsoft Logo" 
+                    className="experience-icon-image"
+                  />
+                </div>
+              </div>
+              <div className="experience-card">
+                <div className="experience-header">
+                  <div className="experience-title-section">
+                    <h3 className="experience-title">Technical Support Engineer</h3>
+                  </div>
+                  <div className="experience-company-section">
+                    <a href="https://www.microsoft.com/en-us/" target="_blank" rel="noopener noreferrer" className="experience-company">
+                      Microsoft (Shanghai)
+                    </a>
+                  </div>
+                  <div className="experience-date">Oct 2019 - Jan 2020</div>
+                </div>
+                <div className="experience-body">
+                  <p className="experience-description">
+                    Provided technical support for Microsoft Office 365 products, resolving complex technical issues for enterprise clients.
+                  </p>
+                  <div className="experience-skills">
+                    <span className="skill-tag">Technical Support</span>
+                    <span className="skill-tag">Microsoft Technologies</span>
+                    <span className="skill-tag">Problem Solving</span>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div className="experience-item">
-            <div className="experience-dot"></div>
-            <div className="experience-content">
-              <h3 className="experience-title">⚡ Software Engineer Intern</h3>
-              <a href="https://github.com/linix-platform" target="_blank" rel="noopener noreferrer" className="experience-company">LNX Protocol</a>
-              <p className="experience-date">Jun-Oct 2019</p>
-              <p className="experience-description">Building DAG-based blockchain protocol.</p>
+            <div className="experience-item">
+              <div className="experience-marker">
+                <div className="experience-dot">
+                  <img 
+                    src="/lnx.png" 
+                    alt="LNX Protocol Logo" 
+                    className="experience-icon-image"
+                  />
+                </div>
+              </div>
+              <div className="experience-card">
+                <div className="experience-header">
+                  <div className="experience-title-section">
+                    <h3 className="experience-title">Software Engineer Intern</h3>
+                  </div>
+                  <div className="experience-company-section">
+                    <a href="https://github.com/linix-platform" target="_blank" rel="noopener noreferrer" className="experience-company">
+                      LNX Protocol
+                    </a>
+                  </div>
+                  <div className="experience-date">Jun - Oct 2019</div>
+                </div>
+                <div className="experience-body">
+                  <p className="experience-description">
+                    Contributed to building a DAG-based blockchain protocol, working on distributed systems architecture.
+                  </p>
+                  <div className="experience-skills">
+                    <span className="skill-tag">Blockchain</span>
+                    <span className="skill-tag">DAG Protocol</span>
+                    <span className="skill-tag">Distributed Systems</span>
+                    <span className="skill-tag">Rust</span>
+                  </div>
+                </div>
+              </div>
             </div>
+
           </div>
         </div>
       </section>
 
       <section id="projects">
-        <h2>🚀 Projects</h2>
+        <h2>🚀 Highlighted Projects</h2>
         <ul className="project-list">
           <li className="project-item active" data-filter-item>
             <a href="https://github.com/TheBinder-AI/SwarmSync-SDK" target="_blank">

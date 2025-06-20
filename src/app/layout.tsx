@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Jahid Hasan - Researcher | Entrepreneur | Founder | Engineer',
+  title: 'Jahid Hasan - Portfolio',
   description: 'Personal website of Jahid Hasan, a PhD student in Computer Science at Iowa State University, focusing on AI and startup development.',
   keywords: ['Jahid Hasan', 'AI', 'Startup', 'Research', 'Computer Science', 'Iowa State University'],
   authors: [{ name: 'Jahid Hasan' }],
@@ -51,7 +51,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
       <head>
-        <link rel="icon" href="data:," />
+        <link rel="icon" href="/pictures/Headshot.png" />
       </head>
       <body className="antialiased">
         {children}
