@@ -211,9 +211,11 @@ export default function Home() {
               <div className="experience-item current">
                 <div className="experience-marker">
                   <div className="experience-dot">
-                    <img 
+                    <Image 
                       src="/favicon.jpeg" 
                       alt="TheBinder AI Logo" 
+                      width={80}
+                      height={80}
                       className="experience-icon-image"
                     />
                   </div>
@@ -248,9 +250,11 @@ export default function Home() {
               <div className="experience-item current">
                 <div className="experience-marker">
                   <div className="experience-dot">
-                    <img 
+                    <Image 
                       src="/tometo.png" 
                       alt="Tometo AI Logo" 
+                      width={80}
+                      height={80}
                       className="experience-icon-image"
                     />
                   </div>
@@ -285,9 +289,11 @@ export default function Home() {
               <div className="experience-item current">
                 <div className="experience-marker">
                   <div className="experience-dot">
-                    <img 
+                    <Image 
                       src="/isu.png" 
                       alt="Iowa State University Logo" 
+                      width={80}
+                      height={80}
                       className="experience-icon-image"
                     />
                   </div>
@@ -321,9 +327,11 @@ export default function Home() {
               <div className="experience-item current">
                 <div className="experience-marker">
                   <div className="experience-dot">
-                    <img 
+                    <Image 
                       src="/lvlup.jpg" 
                       alt="LvlUp Ventures Logo" 
+                      width={80}
+                      height={80}
                       className="experience-icon-image"
                     />
                   </div>
@@ -356,9 +364,11 @@ export default function Home() {
               <div className="experience-item">
                 <div className="experience-marker">
                   <div className="experience-dot">
-                    <img 
+                    <Image 
                       src="/perplexity.png" 
                       alt="Perplexity AI Logo" 
+                      width={80}
+                      height={80}
                       className="experience-icon-image"
                     />
                   </div>
@@ -377,7 +387,7 @@ export default function Home() {
                   </div>
                   <div className="experience-body">
                     <p className="experience-description">
-                      Led Perplexity AI's campus product growth marketing campaign, driving user adoption and engagement.
+                      Led Perplexity AI&apos;s campus product growth marketing campaign, driving user adoption and engagement.
                     </p>
                     <div className="experience-skills">
                       <span className="skill-tag">Growth Marketing</span>
@@ -391,9 +401,11 @@ export default function Home() {
               <div className="experience-item">
                 <div className="experience-marker">
                   <div className="experience-dot">
-                    <img 
+                    <Image 
                       src="/steam.png" 
                       alt="Steam Logo" 
+                      width={80}
+                      height={80}
                       className="experience-icon-image"
                     />
                   </div>
@@ -428,9 +440,11 @@ export default function Home() {
               <div className="experience-item">
                 <div className="experience-marker">
                   <div className="experience-dot">
-                    <img 
+                    <Image 
                       src="/tucana.png" 
                       alt="TucanaStarSoft Logo" 
+                      width={80}
+                      height={80}
                       className="experience-icon-image"
                     />
                   </div>
@@ -465,9 +479,11 @@ export default function Home() {
               <div className="experience-item">
                 <div className="experience-marker">
                   <div className="experience-dot">
-                    <img 
+                    <Image 
                       src="/microsoft.png" 
                       alt="Microsoft Logo" 
+                      width={80}
+                      height={80}
                       className="experience-icon-image"
                     />
                   </div>
@@ -500,9 +516,11 @@ export default function Home() {
               <div className="experience-item">
                 <div className="experience-marker">
                   <div className="experience-dot">
-                    <img 
+                    <Image 
                       src="/lnx.png" 
                       alt="LNX Protocol Logo" 
+                      width={80}
+                      height={80}
                       className="experience-icon-image"
                     />
                   </div>
