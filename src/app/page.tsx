@@ -176,10 +176,10 @@ export default function Home() {
         <section id="about">
           <h2>👋 About Me</h2>
           <p>
-            Hello, I am Jahid, a PhD student in Computer Science at Iowa State University, with dual Master&apos;s degrees in CS and Entrepreneurship. I blended my technical and entrepreneurial knowledge with a focus on AI and startup development.
+            Hello, I am Jahid, an AI researcher specializing in deep learning and a PhD student in Computer Science at Iowa State University, with dual Master&apos;s degrees in CS and Entrepreneurship. I blended my technical and entrepreneurial knowledge with a focus on AI and startup development.
           </p>
           <p>
-            I&apos;m currently working with: <a href="https://tometoai.com/" target="_blank" rel="noopener noreferrer">Tometo, Inc.</a> (ProductHunt #2) FAANG-tier AI Engineering Manager and another open-source community project <a href="https://github.com/TheBinder-AI" target="_blank" rel="noopener noreferrer">TheBinder AI</a>, where I&apos;m developing <a href="https://github.com/TheBinder-AI/SwarmSync-SDK" target="_blank" rel="noopener noreferrer">SwarmSync SDK</a> - an open-source platform for AI agent swarms that work like real human teams. I also help startups grow as a Senior Venture Scout at <a href="https://www.lvlup.vc/" target="_blank" rel="noopener noreferrer">LvlUp Ventures</a>.
+            I&apos;m currently working with: <a href="https://tometoai.com/" target="_blank" rel="noopener noreferrer">Tometo, Inc.</a> (ProductHunt #2) FAANG-tier AI Engineering Manager to help startup founders and another open-source community project <a href="https://github.com/TheBinder-AI" target="_blank" rel="noopener noreferrer">TheBinder AI</a>, where I&apos;m developing <a href="https://github.com/TheBinder-AI/SwarmSync-SDK" target="_blank" rel="noopener noreferrer">SwarmSync SDK</a> - an open-source platform for AI agent swarms that work like real human teams. Previously, I helped startups grow as a Senior Venture Scout at <a href="https://www.lvlup.vc/" target="_blank" rel="noopener noreferrer">LvlUp Ventures</a>.
             Previously, I founded TucanaStarSoft, LLC., a video game development company. When not coding or building, I&apos;m at the gym, in the kitchen, or exploring new places.
           </p>
 
@@ -208,7 +208,7 @@ export default function Home() {
           <div className="experience-container">
             <div className="experience-timeline">
               
-              <div className="experience-item current">
+              {/* <div className="experience-item current">
                 <div className="experience-marker">
                   <div className="experience-dot">
                     <Image 
@@ -245,7 +245,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <div className="experience-item current">
                 <div className="experience-marker">
@@ -324,7 +324,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="experience-item current">
+              <div className="experience-item">
                 <div className="experience-marker">
                   <div className="experience-dot">
                     <Image 
@@ -340,14 +340,13 @@ export default function Home() {
                   <div className="experience-header">
                     <div className="experience-title-section">
                       <h3 className="experience-title">Senior Venture Scout</h3>
-                      <span className="experience-status current">Current</span>
                     </div>
                     <div className="experience-company-section">
                       <a href="https://www.lvlup.vc/" target="_blank" rel="noopener noreferrer" className="experience-company">
                         LvlUp Ventures
                       </a>
                     </div>
-                    <div className="experience-date">Nov 2024 - Present</div>
+                    <div className="experience-date">Nov 2024 - Jun 2025</div>
                   </div>
                   <div className="experience-body">
                     <p className="experience-description">
@@ -356,6 +355,7 @@ export default function Home() {
                     <div className="experience-skills">
                       <span className="skill-tag primary">Venture Capital</span>
                       <span className="skill-tag">Investment Analysis</span>
+                      <span className="skill-tag">Startup Scouting</span>
                     </div>
                   </div>
                 </div>
@@ -562,6 +562,13 @@ export default function Home() {
               <a href="https://github.com/TheBinder-AI/SwarmSync-SDK" target="_blank">
                 <h3 className="project-title">🤖 SwarmSync SDK</h3>
                 <p className="project-category">Building an open-source SwarmSync multi-agent</p>
+              </a>
+            </li>
+
+            <li className="project-item active" data-filter-item>
+              <a href="https://github.com/TheBinder-AI/SwarmSync-Deep-Research" target="_blank">
+                <h3 className="project-title">🧠 SwarmSync Deep Research</h3>
+                <p className="project-category">AI-driven platform for building deep research tools</p>
               </a>
             </li>
 
