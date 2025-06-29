@@ -558,6 +558,21 @@ export default function Home() {
         <section id="projects">
           <h2>🚀 Highlighted Projects</h2>
           <ul className="project-list">
+
+          <li className="project-item active" data-filter-item>
+              <a href="https://huggingface.co/jahidhasan/os-reasoning-model" target="_blank">
+                <h3 className="project-title">🖥 OS Reasoning LLM Model</h3>
+                <p className="project-category">Open-source domain-specific Operating Systems (OS) reasoning model (81.9M parameters).</p>
+              </a>
+            </li>
+
+            <li className="project-item active" data-filter-item>
+              <a href="https://github.com/jahidhasanlinix/gpt-2_inference_optimization" target="_blank">
+                <h3 className="project-title">⚡ GPT-2 Model Inference Optimization</h3>
+                <p className="project-category">Optimized GPT-2 model inference using quantization and pruning techniques.</p>
+              </a>
+            </li>
+
             <li className="project-item active" data-filter-item>
               <a href="https://github.com/TheBinder-AI/SwarmSync-SDK" target="_blank">
                 <h3 className="project-title">🤖 SwarmSync SDK</h3>
