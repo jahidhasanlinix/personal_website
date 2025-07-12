@@ -413,7 +413,7 @@ export default function Home() {
                 <div className="experience-card">
                   <div className="experience-header">
                     <div className="experience-title-section">
-                      <h3 className="experience-title">TechnicalProject Manager</h3>
+                      <h3 className="experience-title">Technical Project Manager</h3>
                     </div>
                     <div className="experience-company-section">
                       <a href="https://store.steampowered.com/app/2504810/Arcane_Arena/" target="_blank" rel="noopener noreferrer" className="experience-company">
